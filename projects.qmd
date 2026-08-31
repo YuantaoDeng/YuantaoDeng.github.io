@@ -1,0 +1,30 @@
+---
+title: "Projects"
+description: "Selected projects by Yuantao Deng."
+page-layout: full
+body-classes: interior-page
+toc: false
+---
+
+```{=html}
+<div class="page-shell">
+  <header class="page-intro">
+    <h1>Projects</h1>
+    <p class="page-lede">A home for selected work and ongoing ideas.</p>
+  </header>
+
+  <section class="page-section" aria-labelledby="projects-heading">
+    <p class="page-section__label">Archive</p>
+    <div class="page-section__body page-placeholder">
+      <p class="page-placeholder__status">In progress</p>
+      <h2 id="projects-heading">Selected work, coming soon.</h2>
+      <p>The project collection is being prepared.</p>
+    </div>
+  </section>
+
+  <nav class="page-trail" aria-label="Page navigation">
+    <a href="about.html"><span aria-hidden="true">←</span> About</a>
+    <a href="contact.html">Contact <span aria-hidden="true">→</span></a>
+  </nav>
+</div>
+```

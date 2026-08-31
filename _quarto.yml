@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - assets/**
+
+website:
+  title: "Yuantao Deng"
+  search: false
+  navbar:
+    pinned: true
+    title: "Home"
+    collapse-below: lg
+    right:
+      - href: index.qmd
+        icon: house
+        aria-label: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: contact.qmd
+        text: Collaborate
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true

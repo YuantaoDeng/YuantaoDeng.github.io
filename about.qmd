@@ -1,0 +1,94 @@
+---
+title: "About"
+description: "About Yuantao Deng and this personal website."
+page-layout: full
+body-classes: interior-page
+toc: false
+anchor-sections: false
+---
+
+```{=html}
+<div class="page-shell">
+  <header class="page-intro">
+    <h1>About</h1>
+    <p class="page-lede">
+      I am a Ph.D. student in Neural Science at New York University, working
+      with Prof. Sukbin Lim. My interests lie broadly in theoretical
+      neuroscience and NeuroAI.
+    </p>
+  </header>
+
+  <section class="page-section about-research" aria-labelledby="research-heading">
+    <p class="page-section__label">Research</p>
+    <div class="page-section__body about-narrative">
+      <h2 id="research-heading">From memory to intelligence.</h2>
+      <p class="about-narrative__lead">
+        I am fascinated by how human memories are formed, stored, and
+        transformed within the human brain. More broadly, I am interested in
+        whether the simple computational principles we uncover in the brain
+        can help us understand intelligence and inspire better artificial
+        systems.
+      </p>
+      <p class="about-narrative__question">
+        At the broadest level, these questions connect to what has always
+        fascinated me most: how physical neural processes give rise to the
+        mind, the self, and conscious experience.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-section about-education" aria-labelledby="education-heading">
+    <p class="page-section__label" id="education-heading">Education</p>
+    <div class="page-section__body">
+      <div class="education-list">
+        <article class="education-item">
+          <p class="education-item__period">2026—Present</p>
+          <div class="education-item__details">
+            <h3>New York University</h3>
+            <p class="education-item__degree">Ph.D. in Neural Science</p>
+            <dl class="education-item__meta">
+              <div>
+                <dt>Advisor</dt>
+                <dd>Prof. Sukbin Lim</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>New York / Shanghai</dd>
+              </div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="education-item">
+          <p class="education-item__period">2022—2026</p>
+          <div class="education-item__details">
+            <h3>Xi'an Jiaotong University</h3>
+            <p class="education-item__degree">
+              B.S. in Mathematics and Applied Mathematics
+            </p>
+            <dl class="education-item__meta">
+              <div>
+                <dt>Location</dt>
+                <dd>Xi'an, China</dd>
+              </div>
+            </dl>
+
+            <div class="education-item__thesis">
+              <p class="education-item__thesis-label">Undergraduate Thesis</p>
+              <p class="education-item__thesis-title">
+                <em>Multiscale Analysis and Dynamical Modeling of Hemodynamics
+                in Rat Functional Ultrasound Imaging</em>
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <nav class="page-trail" aria-label="Page navigation">
+    <a href="index.html"><span aria-hidden="true">←</span> Home</a>
+    <a href="projects.html">Projects <span aria-hidden="true">→</span></a>
+  </nav>
+</div>
+```

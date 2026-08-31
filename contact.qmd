@@ -1,0 +1,115 @@
+---
+title: "Contact"
+description: "Contact Yuantao Deng."
+page-layout: full
+body-classes: interior-page
+toc: false
+anchor-sections: false
+---
+
+```{=html}
+<div class="page-shell">
+  <header class="page-intro contact-intro">
+    <h1>Collaborate</h1>
+    <p class="page-lede">
+      I am interested in a wide range of collaborations.
+    </p>
+  </header>
+
+  <section class="page-section collaborate-section" aria-labelledby="directions-heading">
+    <p class="page-section__label" id="directions-heading">Directions</p>
+    <div class="page-section__body collaborate-content">
+      <p class="collaborate-intro">
+        I am particularly interested in collaborations across three broad
+        directions:
+      </p>
+
+      <div class="collaborate-list">
+        <article class="collaborate-item">
+          <h2>Interdisciplinary Neuroscience</h2>
+          <p>
+            Exploring connections between neuroscience and other fields,
+            including art, embodied intelligence, and unconventional ways of
+            studying or applying principles of the brain.
+          </p>
+        </article>
+
+        <article class="collaborate-item">
+          <h2>Theory <span aria-hidden="true">×</span> Experiment</h2>
+          <p>
+            Working with experimental neuroscientists to connect computational
+            and theoretical ideas with neural and behavioral data, and to
+            develop questions that can be tested in biological systems.
+          </p>
+        </article>
+
+        <article class="collaborate-item">
+          <h2>NeuroAI</h2>
+          <p>
+            Exploring how principles discovered in biological intelligence
+            might inform artificial systems—and how artificial systems, in
+            turn, might help us better understand the brain.
+          </p>
+        </article>
+      </div>
+
+      <p class="collaborate-invite">
+        If any of these directions overlap with your interests, feel free to
+        <a href="mailto:yd3476@nyu.edu">reach out by email</a>. I am always
+        happy to discuss potential ideas and collaborations.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-section elsewhere-section" aria-labelledby="elsewhere-heading">
+    <p class="page-section__label" id="elsewhere-heading">Elsewhere</p>
+    <div class="page-section__body">
+      <p class="elsewhere-copy">
+        Outside research, I occasionally share glimpses of everyday life,
+        travel, art, and things I find interesting.
+      </p>
+
+      <nav class="home-links elsewhere-links" aria-label="Social links">
+        <a
+          class="home-link"
+          href="https://www.xiaohongshu.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Xiaohongshu"
+        >
+          <span class="home-link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4.5 5.5h5.2c1.2 0 2.3.5 3.1 1.3v11.7c-.8-.8-1.9-1.3-3.1-1.3H4.5z" />
+              <path d="M19.5 5.5h-5.2c-.6 0-1.1.1-1.5.4" />
+              <path d="M12.8 6.8c.8-.8 1.8-1.3 3-1.3h3.7v11.7h-3.7c-1.2 0-2.2.5-3 1.3" />
+            </svg>
+          </span>
+          <span class="home-link__label">Xiaohongshu</span>
+        </a>
+
+        <a
+          class="home-link"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <span class="home-link__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" />
+              <circle cx="12" cy="12" r="3.75" />
+              <circle cx="17.3" cy="6.8" r="0.8" class="social-icon__dot" />
+            </svg>
+          </span>
+          <span class="home-link__label">Instagram</span>
+        </a>
+      </nav>
+    </div>
+  </section>
+
+  <nav class="page-trail" aria-label="Page navigation">
+    <a href="projects.html"><span aria-hidden="true">←</span> Projects</a>
+    <a href="index.html">Home <span aria-hidden="true">→</span></a>
+  </nav>
+</div>
+```

@@ -627,7 +627,7 @@ button:focus-visible {
 }
 
 .visitor-section .visitor-section__body {
-  max-width: none;
+  max-width: 40rem;
 }
 
 .visitor-section__intro {
@@ -648,7 +648,7 @@ button:focus-visible {
 .visitor-dashboard iframe {
   display: block;
   width: 100%;
-  height: clamp(54rem, 76vw, 68rem);
+  height: 48rem;
   border: 0;
 }
 
@@ -1133,7 +1133,7 @@ button:focus-visible {
   }
 
   .visitor-dashboard iframe {
-    height: 78rem;
+    height: 42rem;
   }
 
   .collaborate-item {

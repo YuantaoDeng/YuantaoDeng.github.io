@@ -704,8 +704,8 @@ button:focus-visible {
 
 .research-item {
   display: grid;
-  grid-template-columns: minmax(14rem, 0.72fr) minmax(0, 1fr);
-  gap: clamp(2.5rem, 5vw, 5rem);
+  grid-template-columns: minmax(18rem, 0.95fr) minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 4rem);
   padding: clamp(3rem, 6vw, 5rem) 0;
   border-bottom: 1px solid var(--line);
 }
@@ -717,8 +717,8 @@ button:focus-visible {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   margin: 0;
-  padding: 0.6rem;
-  background: #fff;
+  padding: 0;
+  background: var(--paper);
   border: 1px solid var(--line);
 }
 
@@ -735,6 +735,7 @@ button:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 .research-item__type {
@@ -824,20 +825,10 @@ button:focus-visible {
   transform: translate(0.16rem, -0.16rem);
 }
 
-.research-item--wide-media {
-  grid-template-columns: minmax(0, 1fr);
-  gap: clamp(2.5rem, 5vw, 4rem);
-}
-
-.research-item--wide-media .research-item__media {
-  width: 100%;
-  aspect-ratio: 1763 / 606;
-  padding: 0;
-}
-
-.research-item--wide-media .research-item__content {
-  width: min(100%, 42rem);
-  margin-left: auto;
+.research-item--depth-output .research-item__media img {
+  object-fit: cover;
+  object-position: right center;
+  mix-blend-mode: normal;
 }
 
 .page-placeholder {
@@ -1110,14 +1101,6 @@ button:focus-visible {
 
   .research-item__media {
     width: min(100%, 30rem);
-  }
-
-  .research-item--wide-media .research-item__media {
-    width: 100%;
-  }
-
-  .research-item--wide-media .research-item__content {
-    margin-left: 0;
   }
 
   .research-item__context {

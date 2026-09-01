@@ -133,11 +133,11 @@ anchor-sections: false
         </div>
       </article>
 
-      <article class="research-item research-item--wide-media">
+      <article class="research-item research-item--depth-output">
         <figure class="research-item__media">
           <img
             src="assets/research/04.png"
-            alt="Input photograph and corresponding monocular depth-estimation output"
+            alt="Monocular depth-estimation output"
             loading="lazy"
             decoding="async"
           />

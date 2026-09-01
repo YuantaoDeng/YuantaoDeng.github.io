@@ -712,28 +712,16 @@ button:focus-visible {
 
 .research-item__media {
   position: relative;
-  display: grid;
-  place-items: center;
+  box-sizing: border-box;
   align-self: start;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  color: var(--muted);
-  background:
-    linear-gradient(135deg, transparent calc(50% - 0.5px), var(--line) 50%, transparent calc(50% + 0.5px)),
-    linear-gradient(45deg, transparent calc(50% - 0.5px), var(--line) 50%, transparent calc(50% + 0.5px)),
-    rgba(23, 24, 23, 0.018);
+  margin: 0;
+  padding: 0.6rem;
+  background: #fff;
   border: 1px solid var(--line);
 }
 
-.research-item__media::after {
-  position: absolute;
-  inset: 0.65rem;
-  border: 1px solid rgba(23, 24, 23, 0.06);
-  content: "";
-}
-
-.research-item__media-number,
-.research-item__media-label,
 .research-item__type {
   color: var(--muted);
   font-size: 0.65rem;
@@ -742,17 +730,11 @@ button:focus-visible {
   text-transform: uppercase;
 }
 
-.research-item__media-number {
-  position: absolute;
-  top: 1.15rem;
-  left: 1.15rem;
-}
-
-.research-item__media-label {
-  position: relative;
-  z-index: 1;
-  padding: 0.45rem 0.7rem;
-  background: var(--paper-solid);
+.research-item__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .research-item__type {
@@ -840,6 +822,22 @@ button:focus-visible {
 .research-item__link:hover span,
 .research-item__link:focus-visible span {
   transform: translate(0.16rem, -0.16rem);
+}
+
+.research-item--wide-media {
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(2.5rem, 5vw, 4rem);
+}
+
+.research-item--wide-media .research-item__media {
+  width: 100%;
+  aspect-ratio: 1763 / 606;
+  padding: 0;
+}
+
+.research-item--wide-media .research-item__content {
+  width: min(100%, 42rem);
+  margin-left: auto;
 }
 
 .page-placeholder {
@@ -1112,6 +1110,14 @@ button:focus-visible {
 
   .research-item__media {
     width: min(100%, 30rem);
+  }
+
+  .research-item--wide-media .research-item__media {
+    width: 100%;
+  }
+
+  .research-item--wide-media .research-item__content {
+    margin-left: 0;
   }
 
   .research-item__context {

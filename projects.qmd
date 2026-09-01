@@ -21,10 +21,14 @@ anchor-sections: false
     <p class="page-section__label" id="research-list-heading">Selected work</p>
     <div class="page-section__body research-list">
       <article class="research-item">
-        <div class="research-item__media" role="img" aria-label="Reserved image area for Serial Dependence in Visual Working Memory">
-          <span class="research-item__media-number">01</span>
-          <span class="research-item__media-label">Image / Figure</span>
-        </div>
+        <figure class="research-item__media">
+          <img
+            src="assets/research/01download.png"
+            alt="Computational model with interacting sensory and memory modules"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
         <div class="research-item__content">
           <p class="research-item__type">Graduate Summer Research</p>
           <h2>Serial Dependence in Visual Working Memory</h2>
@@ -52,10 +56,14 @@ anchor-sections: false
       </article>
 
       <article class="research-item">
-        <div class="research-item__media" role="img" aria-label="Reserved image area for Large-Scale Network Dynamics during Working Memory">
-          <span class="research-item__media-number">02</span>
-          <span class="research-item__media-label">Image / Figure</span>
-        </div>
+        <figure class="research-item__media">
+          <img
+            src="assets/research/02.jpg"
+            alt="Latent-state trajectories and large-scale working-memory network interactions"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
         <div class="research-item__content">
           <p class="research-item__type">Research Project</p>
           <h2>Large-Scale Network Dynamics during Working Memory</h2>
@@ -91,10 +99,14 @@ anchor-sections: false
       </article>
 
       <article class="research-item">
-        <div class="research-item__media" role="img" aria-label="Reserved image area for Multiscale Dynamics of Functional Ultrasound Hemodynamics">
-          <span class="research-item__media-number">03</span>
-          <span class="research-item__media-label">Image / Figure</span>
-        </div>
+        <figure class="research-item__media">
+          <img
+            src="assets/research/03.png"
+            alt="Functional ultrasound hemodynamic maps across four experimental time points"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
         <div class="research-item__content">
           <p class="research-item__type">Undergraduate Thesis</p>
           <h2>Multiscale Dynamics of Functional Ultrasound Hemodynamics</h2>
@@ -121,11 +133,15 @@ anchor-sections: false
         </div>
       </article>
 
-      <article class="research-item">
-        <div class="research-item__media" role="img" aria-label="Reserved image area for Biologically Inspired Learning for Monocular Depth Estimation">
-          <span class="research-item__media-number">04</span>
-          <span class="research-item__media-label">Image / Figure</span>
-        </div>
+      <article class="research-item research-item--wide-media">
+        <figure class="research-item__media">
+          <img
+            src="assets/research/04.png"
+            alt="Input photograph and corresponding monocular depth-estimation output"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
         <div class="research-item__content">
           <p class="research-item__type">Independent Research</p>
           <h2>Biologically Inspired Learning for Monocular Depth Estimation</h2>

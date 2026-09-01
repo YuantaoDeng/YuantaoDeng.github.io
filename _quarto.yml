@@ -18,7 +18,7 @@ website:
       - href: about.qmd
         text: About
       - href: projects.qmd
-        text: Projects
+        text: Research
       - href: contact.qmd
         text: Collaborate
 

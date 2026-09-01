@@ -88,7 +88,7 @@ anchor-sections: false
 
   <nav class="page-trail" aria-label="Page navigation">
     <a href="index.html"><span aria-hidden="true">←</span> Home</a>
-    <a href="projects.html">Projects <span aria-hidden="true">→</span></a>
+    <a href="projects.html">Research <span aria-hidden="true">→</span></a>
   </nav>
 </div>
 ```

@@ -630,18 +630,12 @@ button:focus-visible {
   max-width: 40rem;
 }
 
-.visitor-section__intro {
-  margin: 1rem 0 2rem;
-  color: #555955;
-  font-size: clamp(0.98rem, 1.25vw, 1.08rem);
-  line-height: 1.7;
-}
-
 .visitor-dashboard {
   position: relative;
   overflow: hidden;
   width: 100%;
   aspect-ratio: 8 / 7;
+  margin-top: 1.5rem;
   background: #fff;
   border-radius: 0.5rem;
 }

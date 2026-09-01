@@ -626,6 +626,51 @@ button:focus-visible {
   line-height: 1.5;
 }
 
+.visitor-section .visitor-section__body {
+  max-width: none;
+}
+
+.visitor-section__intro {
+  margin: 1rem 0 2rem;
+  color: #555955;
+  font-size: clamp(0.98rem, 1.25vw, 1.08rem);
+  line-height: 1.7;
+}
+
+.visitor-dashboard {
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+}
+
+.visitor-dashboard iframe {
+  display: block;
+  width: 100%;
+  height: clamp(54rem, 76vw, 68rem);
+  border: 0;
+}
+
+.visitor-dashboard__footer {
+  margin: 1rem 0 0;
+  text-align: right;
+}
+
+.visitor-dashboard__footer a {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 620;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.visitor-dashboard__footer a:hover,
+.visitor-dashboard__footer a:focus-visible {
+  color: var(--ink);
+}
+
 .collaborate-intro,
 .elsewhere-copy {
   max-width: 42rem;
@@ -1085,6 +1130,10 @@ button:focus-visible {
   .education-item__meta {
     gap: 1rem 2rem;
     margin-top: 1.2rem;
+  }
+
+  .visitor-dashboard iframe {
+    height: 78rem;
   }
 
   .collaborate-item {

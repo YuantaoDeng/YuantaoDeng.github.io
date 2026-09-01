@@ -86,6 +86,31 @@ anchor-sections: false
     </div>
   </section>
 
+  <section class="page-section visitor-section" aria-labelledby="visitor-heading">
+    <p class="page-section__label">Visitors</p>
+    <div class="page-section__body visitor-section__body">
+      <h2 id="visitor-heading">Around the world.</h2>
+      <p class="visitor-section__intro">
+        A live view of recent visits to this website.
+      </p>
+      <div class="visitor-dashboard">
+        <iframe
+          src="https://cloud.umami.is/share/y5k2hqP8hmwb8IVI"
+          title="Website visitors and geographic distribution"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+      <p class="visitor-dashboard__footer">
+        <a
+          href="https://cloud.umami.is/share/y5k2hqP8hmwb8IVI"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Open the full interactive view <span aria-hidden="true">&#8599;</span></a>
+      </p>
+    </div>
+  </section>
+
   <nav class="page-trail" aria-label="Page navigation">
     <a href="index.html"><span aria-hidden="true">←</span> Home</a>
     <a href="projects.html">Research <span aria-hidden="true">→</span></a>
